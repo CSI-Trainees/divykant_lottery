@@ -1,0 +1,214 @@
+body{
+  top: 0;
+  left: 0;
+  background-color: #d5dbd5;
+}
+.top{
+  width: 100%;
+  height: 100vh;
+  background-color: #86d4ee;
+}
+.topdiv{
+  box-shadow: 0px  0px 10px;
+  padding: 10px;
+  position: absolute;
+  top:50%;
+  left: 50%;
+  height: 80vh;
+  width: 90%;
+  transform: translate(-50%, -50%);
+  background-color: #86d4ee;
+}
+.punchline{
+  text-shadow: 0px 0px 10px #f82c02;
+  padding-left: 20px;
+  margin-top: 70px;
+  font-size: 320%;
+  font-family: cursive;
+  color: #03005b;
+}
+.punchlinetwo{
+  padding-left: 22px;
+  font-size: 150%;
+  font-family: cursive;
+  color: #0d05ff;
+  text-shadow: 0px 0px 10px #008080;
+}
+.alink{
+  text-decoration:none;
+  margin-left: 250px;
+  padding: 20px;
+  color: #ffffff;
+  background-color: #000000;
+  font-family: cursive;
+  font-size: 150%;
+  border: solid 2px ;
+  border-radius: 30px;
+}
+.alink:hover{
+  color: #000000;
+  background-color: #86d4ee;
+}
+.imgtg{
+  float: right;
+  top: 50%;
+  left: 80%;
+  width: 29%;
+  border: solid 2px #000000;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px;
+  padding: 6px;
+  transform: translate(-50%, -50%);
+  position: absolute;
+}
+.playtime{
+  overflow: hidden;
+  width:100%;
+  height: 100vh;
+  background-color: ##86d4ee;
+}
+.gamearea{
+  box-shadow: 0px 0px 10px;
+  background-color: #86d4ee;
+  position: absolute;
+  height: 480px;
+  width: 400px;
+   border: solid 3px;
+   border-radius: 30px;
+   position: relative;
+   left: 35%;
+   top: 8%;
+}
+.gonext{
+  float: right;
+  margin-right: 30px;
+  margin-top: 80px;
+  width: 35%;
+  text-align: center;
+  text-decoration:none;
+  border: solid 2px #000000;
+  border-radius: 10px;
+  font-family: cursive;
+  display: block;
+  color: #000000;
+  padding: 5px;
+
+}
+.gonext:hover{
+  background-color: #000000;
+  color:#86d4ee;
+}
+.gameheading{
+  text-shadow: 0px 0px 10px #235e5e;
+  font-family: cursive;
+  font-size: 240%;
+  padding-left: 80px;
+}
+#random{
+  margin-left: 80px;
+  font-size: 200%;
+  font-family: cursive;
+  border: solid 1px #000000;
+  border-radius: 10px;
+}
+#random:hover{
+  background-color: #000000;
+  color: #ffffff;
+}
+.checkdiv{
+  width:100%;
+  height: 100vh;
+  background-color: #86d4ee;
+}
+.incheckdiv{
+  box-shadow: 0px 0px 10px;
+  background-color: #d5dbd5;
+  position: absolute;
+  height: 555px;
+  width: 480px;
+   border: solid 3px;
+   border-radius: 30px;
+   position: relative;
+   left: 35%;
+   top: 8%;
+}
+.enterlot{
+  margin-top: 10px;
+  padding: 10px;
+  font-size: 220%;
+  font-family: cursive;
+  text-shadow: 0px 0px 10px #0d05ff;
+}
+#rsltbtn{
+  padding: 5px;
+display: block;
+font-size: 110%;
+margin-left:85px;
+margin-top: 20px;
+border: solid 1px #000000;
+border-radius: 10px;
+background-color: #000000;
+color: #ffffff;
+font-family: cursive;
+}
+#rsltbtn:hover{
+  background-color: #ffffff;
+  color: #000000;
+}
+#numinput{
+  font-family: cursive;
+  border: solid 1px;
+  border-radius: 10px;
+  padding: 7px;
+font-size: 130%;
+margin-left: 25px;
+display: block;
+}
+#winner{
+  display:none;
+}
+#looser{
+  display: none;
+}
+.lossimg{
+  margin-left: 100px;
+  margin-top: 15px;
+  width: 35%;
+  border: solid 2px ;
+  padding: 5px;
+  border-radius: 10px;
+}
+.looserpara{
+  margin-left: 100px;
+  font-weight: bold;
+  font-family: cursive;
+  font-size: 130%;
+  color: #0044f6;
+}
+.winimg{
+  margin-left: 100px;
+  margin-top: 10px;
+  width: 35%;
+  border: solid 2px ;
+  padding: 5px;
+  border-radius: 10px;
+}
+.winnerpara{
+  margin-left: 100px;
+  font-weight: bold;
+  font-family: cursive;
+  font-size: 130%;
+  color: #0044f6;
+}
+#retry{
+  border: solid 2px;
+  padding: 5px;
+  display: inline-block;
+  border-radius: 10px;
+  float: right;
+  margin-right: 10px;
+}
+#retry:hover{
+  background-color: #000000;
+  color: #ffffff;
+}

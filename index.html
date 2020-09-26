@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>KING'S LOTTERY</title>
+  <link rel="stylesheet" href="lottery.css">
+</head>
+<body>
+  <script src="lotteryy.js"></script>
+  <div class="top">
+  <div class="topdiv">
+    <h1 class="punchline">LOSE A THOUSAND,<br>
+    TO WIN A MILLION !!!</h1>
+    <h6 class="punchlinetwo" >BUY A LOTTERY TICKET AND TRY YOUR LUCK</h6>
+    <div class="imgdiv">
+      <img class="imgtg" src="img/spin.jpg" alt="spinwheel">
+    </div>
+    <a class="alink" href="#rndmnum">LET'S PLAY</a>
+  </div>
+</div>
+  <div class="playtime">
+    <div class="gamearea" id="rndmnum" >
+      <h2 class="gameheading" id="changetext" >CLICK<br>for<br>LOTTERY NUMBER</h2>
+      <button id="random" onclick="randomNumber(); this.onclick=null" type="button" name="button">GO !</button>
+      <a class="gonext" href="#numinput">NEXT STEP </a>
+    </div>
+  </div>
+  <div class="checkdiv">
+    <div class="incheckdiv">
+      <h3 class="enterlot" >ENTER YOUR LOTTERY NUMBER</h3>
+      <input type="number" id="numinput" placeholder="Enter lottery number" autocomplete="off" maxlength="2" name="" value="">
+      <button id="rsltbtn" onclick="condition()" type="button" name="button">^^TIME TO CHECK ^^</button>
+    <div id="winner">
+      <img class="winimg" src="img/winner.jpg" alt="winner img">
+      <p class="winnerpara">MILLIONAIRE !!!</p>
+    </div>
+    <div id="looser">
+      <img class="lossimg" src="img/next.jpg" alt="better luck next time">
+      <p class="looserpara">OOPS!!!</p>
+    </div>
+    <h5 id="retry" href="#" onclick="location.reload();"></h5>
+  </div>
+</div>
+</body>
+</html>
